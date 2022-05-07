@@ -37,7 +37,7 @@ app.get("/about", (req,res)=>{
 
 app.get("*",(req,res)=>{
     res.render('404error',{
-        errorMsg: 'Somthing Wents Wrong!'
+        errorMsg: 'Somthing Wents Wrong! OOPs...😶‍🌫️'
     })
 })
 
